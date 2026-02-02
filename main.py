@@ -2,7 +2,6 @@ import re
 import json
 from typing import List, Dict, Tuple
 from datetime import datetime
-import warnings
 
 class DataExtraction:
     def __init__(self):
