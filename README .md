@@ -1,0 +1,2 @@
+Data Extraction & Secure Validation System
+A robust regex-based data extraction program that processes raw text and extracts 8 different types of structured data while implementing comprehensive security validation.
