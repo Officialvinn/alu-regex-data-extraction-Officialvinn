@@ -220,7 +220,7 @@ class DataExtraction:
         if data['html_tags']:
             output.append("  ⚠ Note: HTML tags extracted but not executed for security")
             for tag in data['html_tags'][:10]:  # Limit display to first 10
-                output.append(f"  🏷️  {tag}")
+                output.append(f"{tag}")
             if len(data['html_tags']) > 10:
                 output.append(f"  ... and {len(data['html_tags']) - 10} more")
         else:
@@ -230,7 +230,7 @@ class DataExtraction:
         output.append("-" * 70)
         if data['currency']:
             for amount in data['currency']:
-                output.append(f"  💰 {amount}")
+                output.append(f"{amount}")
         else:
             output.append("  None found")
         output.append("")
